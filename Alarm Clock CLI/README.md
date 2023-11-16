@@ -9,7 +9,7 @@ This is the CLI (Command line interface) based python mini and beginners friendl
 The playsound module is a cross platform module that can play audio files. 
 
 Run the following command to install the packages:
-```
+```py
 pip install playsound
 ```
 The playsound module contains only a single function (also named) `playsound()`.
