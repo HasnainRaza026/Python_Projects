@@ -9,7 +9,7 @@ This is the CLI (Command line interface) based python mini and beginners friendl
 The playsound module is a cross platform module that can play audio files. 
 
 Run the following command to install the packages:
-```py
+```
 pip install playsound
 ```
 The playsound module contains only a single function (also named) `playsound()`.
@@ -28,37 +28,21 @@ Python has a list of different moudules to play and manipulate audios, each one 
 
 
 ### time Module
+The time module in Python provides functions for handling time-related tasks. Like representing time in code, such as objects, numbers, and strings. It also provides functionality other than representing time, like pausing the Program during execution and measuring the efficiency of your code etc.
 
-## Appendix
-
-Any additional information goes here
-
-
-## Demo
-
-Insert gif or link to demo
-
-
-## 🚀 About Me
-I'm a full stack developer...
-
-
-## Lessons Learned
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
+The time module comes with Python’s standard utility module, so there is no need to install it externally. We can simply import it using the `import` statement.
+```py
+import time
 ```
 
+Execution can be delayed using `time.sleep()` method. This method is used to halt the program execution for the time specified in the arguments.
+```py
+time.sleep(1)
+# pause for 1 second
+```
 
+To learn more about the time module functionalities read Python’s Official [time Module documentation](https://docs.python.org/3/library/time.html)
+
+Read very informative artical posted by geeksforgeeks on Python [time Module](https://www.geeksforgeeks.org/python-time-module/)
+
+Also check out this awesome video by [Bro Code](https://youtube.com/@BroCodez?si=lK6aIAY0xGbpqrGf) on python time Module [here](https://youtu.be/Qj3GlL5ckQA?si=l6jDD0G0DYF8C5-B)
