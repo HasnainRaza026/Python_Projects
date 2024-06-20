@@ -4,7 +4,6 @@ import time
 from hangman_art import *
 from hangman_words import *
 
-
 def find_position(text, word):
     positions = []
     start = 0
@@ -41,12 +40,13 @@ print(display_stage)
 
 while True:
     if "_" not in guess:
-        print(f"You guesed the word correctly, You Won!")
+        print(f"You guesed the word correctly, You Win!")
         break
     print(guess)
     letter = input("Choose a letter: ")
     quantity = word.count(letter)
     if quantity != 0:
+        clear_terminal()
         position = find_position(word, letter)
         for i in position:
             if i == 0:
@@ -55,6 +55,7 @@ while True:
                 guess = guess[:i*2] + letter + guess[i*2+1:] 
         print(display_stage)
     elif quantity == 0:
+        clear_terminal()
         print(f"You guessed {letter}, that is not in the word. You lose a life")
         count += 1
         display_stage = stages[len(stages)-count]
