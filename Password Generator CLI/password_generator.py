@@ -9,7 +9,8 @@ letter = st.ascii_letters
 digits = st.digits
 special = st.punctuation
 
-#print(letter,digits,special)
+# print(letter,digits,special)
+
 
 def generate(lenght, numbers=True, special_chr=True):
     Charachter = letter
@@ -41,6 +42,7 @@ def generate(lenght, numbers=True, special_chr=True):
             meet_criteria = meet_criteria and has_special
 
     return password
+
 
 # Ask the user to set the criteria of password
 pwd_length = int(input("Enter the length of your password: "))

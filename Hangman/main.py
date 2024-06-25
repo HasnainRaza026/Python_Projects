@@ -1,8 +1,10 @@
-import sys, subprocess
+import sys
+import subprocess
 import random
 import time
 from hangman_art import *
 from hangman_words import *
+
 
 def find_position(text, word):
     positions = []
@@ -15,12 +17,13 @@ def find_position(text, word):
         start += len(word)  # Move past the word
     return positions
 
+
 def clear_terminal():
     operating_system = sys.platform
     if operating_system == 'win32':
         subprocess.run('cls', shell=True)
     else:
-        subprocess.run( 'clear', shell=True)
+        subprocess.run('clear', shell=True)
 
 
 print(logo)
@@ -50,21 +53,18 @@ while True:
         position = find_position(word, letter)
         for i in position:
             if i == 0:
-                guess = letter + guess[i+1:] 
+                guess = letter + guess[i+1:]
             else:
-                guess = guess[:i*2] + letter + guess[i*2+1:] 
+                guess = guess[:i*2] + letter + guess[i*2+1:]
         print(display_stage)
     elif quantity == 0:
         clear_terminal()
-        print(f"You guessed {letter}, that is not in the word. You lose a life")
+        print(
+            f"You guessed {letter}, that is not in the word. You lose a life")
         count += 1
         display_stage = stages[len(stages)-count]
-        if display_stage==stages[0]:
+        if display_stage == stages[0]:
             print(display_stage)
             print(f"You lost")
             break
         print(display_stage)
-    
-
-
-    

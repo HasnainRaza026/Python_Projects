@@ -4,6 +4,7 @@ import subprocess
 from art import *
 from game_data import data
 
+
 def clear_terminal():
     operating_system = sys.platform
     if operating_system == 'win32':
@@ -11,12 +12,14 @@ def clear_terminal():
     else:
         subprocess.run('clear', shell=True)
 
+
 def get_new_choice(exclude_choice):
     """Select a new random choice different from the excluded one."""
     new_choice = random.choice(data)
     while new_choice == exclude_choice:
         new_choice = random.choice(data)
     return new_choice
+
 
 def initial_pick():
     """Select the initial two random choices."""
@@ -26,6 +29,7 @@ def initial_pick():
         second = random.choice(data)
     return first, second
 
+
 def main():
     current, next_choice = initial_pick()
     score = 0
@@ -34,9 +38,11 @@ def main():
     print(logo)
 
     while not lost:
-        print(f"Compare A: {current['name']}, a {current['description']}, from {current['country']}")
+        print(
+            f"Compare A: {current['name']}, a {current['description']}, from {current['country']}")
         print(vs)
-        print(f"Compare B: {next_choice['name']}, a {next_choice['description']}, from {next_choice['country']}")
+        print(
+            f"Compare B: {next_choice['name']}, a {next_choice['description']}, from {next_choice['country']}")
 
         ans = input("Who has more followers? Type 'A' or 'B': ").lower()
 
@@ -53,6 +59,7 @@ def main():
         else:
             print(f"Sorry, that was wrong. Final score: {score}")
             lost = True
+
 
 if __name__ == "__main__":
     main()

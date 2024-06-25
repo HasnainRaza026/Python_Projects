@@ -9,7 +9,8 @@ import time
 clear = "\033[2J"
 clear_and_return = "\033[2H"
 
-def alarm (seconds):
+
+def alarm(seconds):
     time_elapsed = 0
 
     # Clears the terminal
@@ -23,8 +24,9 @@ def alarm (seconds):
         minutes_left = time_left // 60
         seconds_left = time_left % 60
 
-        # Clears and return the courser to the home position after each itteration 
-        print(f"{clear_and_return}Alarm will ring in::  {minutes_left:02d} mim : {seconds_left:02d} sec")
+        # Clears and return the courser to the home position after each itteration
+        print(
+            f"{clear_and_return}Alarm will ring in::  {minutes_left:02d} mim : {seconds_left:02d} sec")
 
     playsound("Alarm.wav")
 
@@ -32,5 +34,5 @@ def alarm (seconds):
 minutes = int(input("Enter number of minutes: "))
 seconds = int(input("Enter number of seconds: "))
 
-total_seconds = seconds +  minutes*60 
+total_seconds = seconds + minutes*60
 alarm(total_seconds)

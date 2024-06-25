@@ -15,9 +15,11 @@ logo = """
 
 CARDS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11]
 
+
 def deal_card():
     """Returns a random card from the deck."""
     return random.choice(CARDS)
+
 
 def calculate_score(cards):
     """Calculates the score of the current hand."""
@@ -28,15 +30,18 @@ def calculate_score(cards):
         cards.append(1)
     return sum(cards)
 
+
 def hit(cards):
     """Draws a card and adds to the current hand."""
     cards.append(deal_card())
     return cards
 
+
 def display_scores(user, computer):
     """Displays the current scores of both user and computer."""
     print(f"Your cards: {user}, current score: {calculate_score(user)}")
     print(f"Computer's first card: {computer[0]}")
+
 
 def clear_terminal():
     """Clears the terminal screen."""
@@ -46,10 +51,12 @@ def clear_terminal():
     else:
         subprocess.run('clear', shell=True)
 
+
 def start():
     while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower() == 'y':
         play_game()
     print("Thanks for playing!")
+
 
 def play_game():
     clear_terminal()
@@ -76,13 +83,14 @@ def play_game():
 
     display_final_scores(user, computer)
 
+
 def display_final_scores(user, computer):
     user_score = calculate_score(user)
     computer_score = calculate_score(computer)
-    
+
     print(f"Your final hand: {user}, final score: {user_score}")
     print(f"Computer's final hand: {computer}, final score: {computer_score}")
-    
+
     if user_score == computer_score:
         print("It's a draw!")
     elif user_score == 0:
@@ -95,6 +103,7 @@ def display_final_scores(user, computer):
         print("You win!")
     else:
         print("You lose!")
+
 
 if __name__ == "__main__":
     start()
