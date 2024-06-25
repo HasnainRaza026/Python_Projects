@@ -1,6 +1,9 @@
+"""
+This code imports the `random` module, which provides functions for generating random numbers.
+"""
 import random
 
-rock = '''
+ROCK = '''
     _______
 ---'   ____)
       (_____)
@@ -9,7 +12,7 @@ rock = '''
 ---.__(___)
 '''
 
-paper = '''
+PAPER = '''
     _______
 ---'   ____)____
           ______)
@@ -18,7 +21,7 @@ paper = '''
 ---.__________)
 '''
 
-scissors = '''
+SCISSORS = '''
     _______
 ---'   ____)____
           ______)
@@ -29,21 +32,29 @@ scissors = '''
 
 
 def main():
-    game = [rock, paper, scissors]
+    """
+    This function runs the game logic of the ROCK-PAPER-SCISSORS program.
+
+    Parameters:
+    None
+
+    Returns:
+    None
+    """
+    game = [ROCK, PAPER, SCISSORS]
 
     user_choice = int(
-        input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+        input("What do you choose? Type 0 for ROCK, 1 for PAPER or 2 for SCISSORS.\n"))
 
     if user_choice >= 3 or user_choice < 0:
         print("You typed an invalid number, you lose!")
         return
 
-    else:
-        print(game[user_choice])
+    print(game[user_choice])
 
-        computer_choice = random.randint(0, 2)
-        print("Computer chose:")
-        print(game[computer_choice])
+    computer_choice = random.randint(0, 2)
+    print("Computer chose:")
+    print(game[computer_choice])
 
     if user_choice == 0 and computer_choice == 2:
         print("You win!")
