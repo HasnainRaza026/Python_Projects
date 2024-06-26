@@ -1,4 +1,9 @@
 class MoneyMachine:
+    """
+    A class representing a money machine that accepts 
+    coins and calculates the total amount received.
+    It also handles payment, change, and profit calculation.
+    """
 
     CURRENCY = "$"
 
@@ -20,9 +25,9 @@ class MoneyMachine:
     def process_coins(self):
         """Returns the total calculated from coins inserted."""
         print("Please insert coins.")
-        for coin in self.COIN_VALUES:
+        for coin, value in self.COIN_VALUES.items():
             self.money_received += int(
-                input(f"How many {coin}?: ")) * self.COIN_VALUES[coin]
+                input(f"How many {coin}?: ")) * value
         return self.money_received
 
     def make_payment(self, cost):
@@ -34,7 +39,6 @@ class MoneyMachine:
             self.profit += cost
             self.money_received = 0
             return True
-        else:
-            print("Sorry that's not enough money. Money refunded.")
-            self.money_received = 0
-            return False
+        print("Sorry that's not enough money. Money refunded.")
+        self.money_received = 0
+        return False
