@@ -1,3 +1,11 @@
+"""
+Defines the MENU dictionary, which contains the details of each coffee type available.
+Each coffee type is a key in the dictionary, with its corresponding value being another dictionary.
+This inner dictionary contains two keys: 'ingredients' and 'cost'.
+
+The 'ingredients' key maps to another dictionary, specifying the quantity of each ingredient.
+The 'cost' key maps to a float value representing the cost of the coffee type.
+"""
 MENU = {
     "espresso": {
         "ingredients": {
