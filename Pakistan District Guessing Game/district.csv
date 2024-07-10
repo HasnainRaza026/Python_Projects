@@ -1,0 +1,171 @@
+Districts,X,Y
+Muzaffarabad,137.0,161.0
+Hattian Bala,146.0,155.0
+Neelam Valley,157.0,177.0
+Mirpur,143.0,117.0
+Bhimber,158.0,108.0
+Kotli,150.0,124.0
+Poonch,150.0,139.0
+Bagh,145.0,146.0
+Haveli,158.0,144.0
+Sudhanoti,143.0,134.0
+Awaran,-196.0,-162.0
+Barkhan,-19.0,-15.0
+Kachhi,-102.0,-40.0
+Chagai,-288.0,-58.0
+Chaman,-148.0,19.0
+Dera Bugti,-48.0,-59.0
+Duki,-44.0,-6.0
+Gwadar,-332.0,-199.0
+Harnai,-90.0,-5.0
+Hub,-128.0,-197.0
+Jafarabad,-91.0,-88.0
+Jhal Magsi,-105.0,-76.0
+Kalat,-141.0,-49.0
+Kech,-296.0,-172.0
+Kharan,-191.0,-70.0
+Kohlu,-54.0,-30.0
+Khuzdar,-146.0,-116.0
+Lasbela,-147.0,-171.0
+Loralai,-51.0,3.0
+Mastung,-134.0,-20.0
+Musakhel,-12.0,21.0
+Nasirabad,-88.0,-71.0
+Nushki,-176.0,-34.0
+Qila Abdullah,-144.0,18.0
+Qila Saifullah,-77.0,26.0
+Panjgur,-265.0,-141.0
+Pishin,-119.0,16.0
+Quetta,-129.0,-4.0
+Sherani,-17.0,52.0
+Sibi,-85.0,-30.0
+Sohbatpur,-65.0,-73.0
+Surab,-162.0,-82.0
+Washuk,-238.0,-103.0
+Zhob,-39.0,44.0
+Ziarat,-105.0,5.0
+Usta Muhammad,-95.0,-90.0
+Ghanche,262.0,193.0
+Skardu,212.0,187.0
+Shigar,216.0,219.0
+Kharmang,235.0,183.0
+Roundu,194.0,213.0
+Ghizer,127.0,240.0
+Gupis–Yasin,108.0,231.0
+Gilgit,166.0,218.0
+Hunza,193.0,255.0
+Nagar,189.0,233.0
+Astore,186.0,191.0
+Diamer,155.0,204.0
+Darel,144.0,215.0
+Tangir,165.0,199.0
+Abbottabad,122.0,151.0
+Allai,118.0,177.0
+Bajaur,52.0,178.0
+Bannu,17.0,108.0
+Battagram,117.0,178.0
+Buner,95.0,164.0
+Charsadda,63.0,156.0
+Central Dir District,68.0,182.0
+Dera Ismail Khan,25.0,65.0
+Hangu,26.0,125.0
+Haripur,110.0,146.0
+Karak,37.0,111.0
+Khyber,41.0,147.0
+Kohat,56.0,126.0
+Kurram,-2.0,141.0
+Kolai Palas,114.0,190.0
+Lakki Marwat,33.0,89.0
+Lower Dir,67.0,183.0
+Lower Kohistan,108.0,199.0
+Lower Chitral,64.0,221.0
+Malakand,66.0,168.0
+Mansehra,124.0,163.0
+Mardan,75.0,159.0
+Mohmand,51.0,165.0
+North Waziristan,-19.0,102.0
+Nowshera,68.0,145.0
+Orakzai,30.0,135.0
+Peshawar,58.0,137.0
+Shangla,101.0,181.0
+Upper South Waziristan,-6.0,90.0
+Lower South Waziristan,-28.0,74.0
+Swabi,87.0,151.0
+Swat,93.0,209.0
+Tank,5.0,78.0
+Torghar,107.0,169.0
+Upper Dir,75.0,200.0
+Upper Kohistan,116.0,208.0
+Upper Chitral,86.0,238.0
+Attock,87.0,128.0
+Bahawalnagar,58.0,-65.0
+Bahawalpur,53.0,-54.0
+Bhakkar,49.0,56.0
+Chakwal,107.0,104.0
+Chiniot,104.0,52.0
+Dera Ghazi Khan,-8.0,-41.0
+Faisalabad,119.0,39.0
+Gujranwala,156.0,75.0
+Gujrat,142.0,90.0
+Hafizabad,134.0,67.0
+Jampur,83.0,32.0
+Jhang,76.0,28.0
+Jhelum,130.0,103.0
+Kasur,163.0,28.0
+Khanewal,72.0,4.0
+Khushab,71.0,66.0
+Lahore,169.0,46.0
+Layyah,37.0,26.0
+Lodhran,59.0,-26.0
+Mandi Bahauddin,134.0,84.0
+Mianwali,56.0,96.0
+Multan,47.0,-19.0
+Muzaffargarh,25.0,-32.0
+Narowal,198.0,76.0
+Nankana Sahib,146.0,42.0
+Okara,138.0,17.0
+Pakpattan,122.0,-2.0
+Rahim Yar Khan,18.0,-76.0
+Rajanpur,-2.0,-39.0
+Rawalpindi,125.0,122.0
+Sahiwal,122.0,-2.0
+Sargodha,101.0,69.0
+Sheikhupura,155.0,56.0
+Sialkot,174.0,84.0
+Toba Tek Singh,94.0,21.0
+Vehari,85.0,-15.0
+Talagang,80.0,104.0
+Murree,132.0,140.0
+Taunsa,18.0,31.0
+Kot Addu,36.0,12.0
+Wazirabad,155.0,81.0
+Badin,-50.0,-226.0
+Dadu,-106.0,-139.0
+Ghotki,-19.0,-102.0
+Hyderabad,-68.0,-200.0
+Jacobabad,-61.0,-81.0
+Jamshoro,-78.0,-189.0
+Karachi Central,-116.0,-208.0
+Karachi East,-123.0,-208.0
+Karachi South,-111.0,-217.0
+Karachi West,-114.0,-198.0
+Kashmore,-40.0,-83.0
+Khairpur,-45.0,-140.0
+Korangi,-189.0,-255.0
+Keamari,-127.0,-216.0
+Larkana,-80.0,-113.0
+Malir,-112.0,-215.0
+Matiari,-67.0,-182.0
+Mirpur Khas,-41.0,-203.0
+Naushahro Feroze,-83.0,-141.0
+Qambar Shahdadkot,-100.0,-108.0
+Sanghar,-27.0,-174.0
+Shaheed Benazirabad,-73.0,-157.0
+Shikarpur,-64.0,-95.0
+Sujawal,-79.0,-241.0
+Sukkur,-41.0,-113.0
+Tando Allahyar,-56.0,-195.0
+Tando Muhammad Khan,-67.0,-210.0
+Tharparkar,2.0,-221.0
+Thatta,-95.0,-221.0
+Umerkot,-15.0,-194.0
