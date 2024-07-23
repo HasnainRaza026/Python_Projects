@@ -4,7 +4,7 @@ from datetime import datetime
 
 MY_EMAIL = "your_email"
 PASSWORD = "your_password or your_app_password"
-RECIEVERS_EMAIL = "recievers_email"
+RECEIVERS_EMAIL = "receivers_email"
 
 
 def send_motivation_email():
