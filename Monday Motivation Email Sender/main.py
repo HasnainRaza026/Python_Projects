@@ -26,7 +26,7 @@ def send_motivation_email():
                 connection.login(user=MY_EMAIL, password=PASSWORD)
                 connection.sendmail(
                     from_addr=MY_EMAIL,
-                    to_addrs=RECIEVERS_EMAIL,
+                    to_addrs=RECEIVERS_EMAIL,
                     msg=f"Subject:Monday Motivation\n\n{quote}"
                 )
                 print("Email sent successfully.")
