@@ -1,0 +1,17 @@
+{
+  "Person 1": {
+    "month": 7,
+    "day": 24,
+    "email": "his/her_email"
+  },
+  "Person 2": {
+    "month": 3,
+    "day": 9,
+    "email": "his/her_email"
+  },
+  "Person 3": {
+    "month": 11,
+    "day": 20,
+    "email": "his/her_email"
+  }
+}
