@@ -1,0 +1,52 @@
+body, div, p, a{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ececf3;
+}
+
+.top-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #467da5;
+    height: 180px;
+    color: white;
+    font-size: 20px;
+    padding-right: 500px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: -50px;
+    margin-left: 380px;
+}
+
+.content-div{
+    width: 400px;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    padding: 50px 40px 40px 40px;
+}
+
+.title{
+    font-size: 18px;
+    color: #606060;
+    margin-bottom: 15px;
+}
+
+.sub-title{
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 15px;
+}
+
+.body{
+    font-size: 12px;
+    color: #606060;
+}
