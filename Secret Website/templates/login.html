@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">Login</h1>
+    <!-- Form starts here -->
+    <form method="POST" action="{{ url_for('login') }}" novalidate class="needs-validation">
+        {{ form.hidden_tag() }}
+
+        <!-- Email Input -->
+        <div class="mb-3">
+            {{ form.email.label(class="form-label") }}
+            {{ form.email(class="form-control", placeholder="Enter your email") }}
+            <!-- Display error messages for email -->
+            {% for error in form.email.errors %}
+            <span class="text-danger small">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <!-- Password Input -->
+        <div class="mb-3">
+            {{ form.password.label(class="form-label") }}
+            {{ form.password(class="form-control", placeholder="Enter your password") }}
+            <!-- Display error messages for password -->
+            {% for error in form.password.errors %}
+            <span class="text-danger small">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            {{ form.submit(class="btn btn-primary w-100") }}
+        </div>
+    </form>
+</div>
+
+{% endblock %}
+
